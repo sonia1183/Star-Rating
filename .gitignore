@@ -3,6 +3,11 @@
 # dependencies
 /node_modules
 /.pnp
+/Div1.js
+/Div2.js
+/Display.js
+/calculator.js
+/calculator.css
 .pnp.js
 
 # testing

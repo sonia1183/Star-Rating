@@ -1,22 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-
+//import Div1 from './Div1';
+//import Div2 from './Div2';
+//import Display from './Display';
+//import Calculator from './calculator';
+import StarRating from './StarRating';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <StarRating totalStars={5}/>
       </header>
     </div>
   );
