@@ -8,7 +8,7 @@
   cursor: pointer;
   width: 2em;
   height: 2em;
-  background-color: grey;
+  background-color: white;
   -webkit-clip-path: polygon(
     50% 0%,
     63% 38%,
@@ -36,7 +36,7 @@
 }
 
 .star.selected {
-  background-color: red;
+  background-color: yellow;
 }
 
 p {
